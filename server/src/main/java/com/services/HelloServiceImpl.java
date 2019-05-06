@@ -1,11 +1,12 @@
-package services;
-
+package com.services;
 
 import com.example.grpc.proto.HelloRequest;
 import com.example.grpc.proto.HelloResponse;
 import com.example.grpc.proto.HelloServiceGrpc;
 import io.grpc.stub.StreamObserver;
+import org.lognet.springboot.grpc.GRpcService;
 
+@GRpcService
 public class HelloServiceImpl extends HelloServiceGrpc.HelloServiceImplBase {
 
     @Override

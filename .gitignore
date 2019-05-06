@@ -1,2 +1,4 @@
 .idea
 grpc.iml
+server/target
+client/target
