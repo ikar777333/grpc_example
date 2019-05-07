@@ -1,8 +1,8 @@
-package com.services;
+package com.ikar.example.grpc.server.services;
 
-import com.example.grpc.proto.HelloRequest;
-import com.example.grpc.proto.HelloResponse;
-import com.example.grpc.proto.HelloServiceGrpc;
+import com.ikar.example.grpc.proto.HelloRequest;
+import com.ikar.example.grpc.proto.HelloResponse;
+import com.ikar.example.grpc.proto.HelloServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import org.lognet.springboot.grpc.GRpcService;
 
